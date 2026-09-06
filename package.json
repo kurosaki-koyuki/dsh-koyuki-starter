@@ -1,0 +1,45 @@
+{
+  "name": "dsh-koyuki-starter",
+  "version": "0.3.0",
+  "description": "better-sidebar run button (single pink ?) for .py / .R / .bat / .cmd files: runs the file in the current visible terminal (auto-types the command); opens a bottom terminal when none exists; bilingual zh/en UI.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/dsh-koyuki-starter.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-better-sidebar",
+    "python",
+    "r",
+    "script",
+    "run",
+    "koyuki"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ],
+      "platform": "web"
+    }
+  }
+}

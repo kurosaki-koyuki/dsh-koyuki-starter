@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/dsh-koyuki-starter.git"
+    "url": "git+https://github.com/kurosaki-koyuki/dsh-koyuki-starter.git"
   },
   "keywords": [
     "dsh",
@@ -43,3 +43,4 @@
     }
   }
 }
+

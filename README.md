@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/koyuki_happy.png" width="96" alt="dsh-koyuki-starter logo" /></p>
+
 # dsh-koyuki-starter
 
 DeepSeek Harness (dsh) + better-sidebar 的一键运行按钮插件：在资源管理器/编辑器里给脚本文件加一个**粉色 ▶**，点了就在 better-sidebar 的终端里运行。
